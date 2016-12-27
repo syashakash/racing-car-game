@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Car Racing Game</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/cargame.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    </head>
+
+    <body id="race">
+        <h1 id="game-name">Car Racing Game</h1>
+
+        <input type="button" value="Race!" id="go"/>
+        <input type="button" value="Reset" id="reset"/>
+
+        <div id="racetrack">
+            <img src="img/car1.png" id="car1" class="car"/>
+            <img src="img/car2.png" id="car2" class="car"/>
+        </div>
+
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>Results</h2>
+            <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+            <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+        </div>
+
+        <!-- Load CDN first-->
+        <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+        </script>
+        <script>
+            window.jQuery || document.write('<script src="js/jquery-3.1.1.js"><\/script>');
+        </script>
+        <script type="text/javascript" src="js/cargame.js"></script>
+    </body>
+</html>
