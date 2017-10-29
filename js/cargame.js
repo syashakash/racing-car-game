@@ -38,7 +38,7 @@ $(function () {
             checkIfComplete();
             
             //give a text feedback in the race info box
-            $('#raceInfo1 span').text('Finished in ' + place + ' place and clocked in at ' + raceTime1 + ' milliseconds!');
+            $('#raceInfo1 span').text('Finished the race in ' + place + ' place and clocked in at ' + raceTime1 + ' milliseconds!');
         });
         
                 $('#car2').animate({
@@ -52,7 +52,7 @@ $(function () {
             checkIfComplete();
             
             //give a text feedback in the race info box
-            $('#raceInfo2 span').text('Finished in ' + place + ' place and clocked in at ' + raceTime2 + ' milliseconds!');
+            $('#raceInfo2 span').text('Finished the race in ' + place + ' place and clocked in at ' + raceTime2 + ' milliseconds!');
         });
 });
 $('#reset').click(function() {
